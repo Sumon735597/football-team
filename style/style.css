@@ -1,0 +1,111 @@
+/* font-import */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
+ *{
+    margin: 0px;
+    padding: 0px;
+} 
+
+/* ---header &banner----- */
+
+header{
+    background-color: #2D25A0;
+    
+}
+/* -----Navigation bar-start ------*/
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 156px;
+    margin-right: 132px;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    padding-left: 36px;
+    color: white;
+    font-weight: 500px;
+    font-size: 16px;
+}
+
+
+span{
+    margin-top: 42px;
+    margin-bottom: 80px;
+}
+/* --navigation-login --*/
+/* awesome-font */
+.fa-sign-in-alt{
+    color: whitesmoke;
+}
+/* awesome-font */
+.login-container{
+    padding: 10px;
+    background-color:#E02C6D;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 16px;
+}
+/* --navigation-login --*/
+
+
+/*------ Navigation bar-end -----*/
+
+/* banner start */
+.banner-container{
+    display: flex;
+    margin-left: 156px;
+    margin-right: 132px;
+    position: relative;
+    overflow: hidden;
+}
+.banner-info{
+    width:487px;
+    height: 320px;
+}
+
+.info{
+    font-family: Poppins;
+   font-size: 64px;
+   font-weight: 700;
+   line-height: 80px;
+   text-align: left;
+   padding-right: 80px;
+   color:  #FFFFFF;
+   
+
+}
+.banner-img img{
+    width: 556.01px;
+    height: 438px;
+    margin-bottom: 86px;
+
+}
+
+
+.banner-button{
+    text-decoration: none;
+    margin: 5px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    padding: 10px;
+    background-color:#E02C6D;
+    font-size: 16px;
+    font-weight: 500px;
+
+
+}
+.fa-arrow-right{
+    margin-left: 8px;
+}
+
+/* ----Use transform and transition -----*/
+.banner-container:hover .banner-img{
+    transform: scale(1.2) skew(-20deg);
+    transition: transform 2s ease-in;
+}
+/*------------------------------------ banner end---------- ------------*/
